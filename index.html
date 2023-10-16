@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="button">
         <div class="ball">
-
+            <audio src="ssstik.io_1694172303501.mp3"></audio>
+            
         </div>
+       
     </div>
+    
     <script>
         document.querySelector('.ball').addEventListener('click', (e)=>{
             e.target.classList.toggle('ball-move');
-        document.body.classList.toggle('dark');
-        })
+        document.body.classList.toggle('dark');})
+          const button = document.querySelector('.ball')
+           button.addEventListener('click', function(){
+                const audio = document.querySelector('audio')
+                audio.play()
+                
+            }
+            )
+        
+       
        
     </script>
 </body>

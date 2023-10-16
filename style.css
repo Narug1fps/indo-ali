@@ -4,6 +4,8 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
+  
+    
 }
 body {
     display: flex;
@@ -40,4 +42,6 @@ body {
 
     
     .dark{
-    background-image: url(Indo\ ali.jpg);}
+        right: 100%;
+        left: 100%;
+    background-image: url(Indo\ ali.jpeg);}
